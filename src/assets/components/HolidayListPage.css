@@ -1,6 +1,3 @@
-/* HolidayListPage.css */
-
-/* Container styles */
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -10,7 +7,6 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Title styles */
 h2 {
   font-size: 2.5rem;
   font-weight: 700;
@@ -20,7 +16,6 @@ h2 {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
-/* List styles */
 ul {
   list-style-type: none;
   padding: 0;
@@ -37,28 +32,24 @@ li {
     box-shadow 0.3s ease;
 }
 
-/* Hover effect for each holiday item */
 li:hover {
   background-color: #e0f7fa;
   transform: translateY(-5px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-/* Holiday name styling */
 li p.font-semibold {
   font-size: 1.2rem;
   font-weight: 600;
   color: #1a202c;
 }
 
-/* Date styling */
 li p {
   font-size: 1rem;
   color: #4a5568;
   margin-top: 0.5rem;
 }
 
-/* No holidays found message */
 p.no-holidays {
   color: #e53e3e;
   font-size: 1.25rem;
@@ -67,7 +58,6 @@ p.no-holidays {
   font-weight: bold;
 }
 
-/* Holiday List Styles */
 ul {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -76,7 +66,6 @@ ul {
   margin: 0;
 }
 
-/* Mobile responsiveness */
 @media (max-width: 768px) {
   ul {
     grid-template-columns: 1fr 1fr;
